@@ -1,6 +1,6 @@
 const Item = require("../models/clothingItem");
 const { StatusCodes } = require("http-status-codes");
-const { BAD_REQUEST, NOT_FOUND, SERVER_ERROR } = require("../utils/errors");
+const { NOT_FOUND } = require("../utils/errors");
 const handleError = require("../utils/handleError");
 
 const getItems = (req, res) => {
