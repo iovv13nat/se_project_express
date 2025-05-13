@@ -1,5 +1,5 @@
-const Item = require("../models/clothingItem");
 const { StatusCodes } = require("http-status-codes");
+const Item = require("../models/clothingItem");
 const { NOT_FOUND } = require("../utils/errors");
 const handleError = require("../utils/handleError");
 
@@ -11,7 +11,7 @@ const getItems = (req, res) => {
 };
 
 const createItem = (req, res) => {
-  console.log(req.user);
+  // console.log(req.user);
   const { name, weather, imageUrl } = req.body;
   const owner = req.user._id;
 

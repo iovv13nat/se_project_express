@@ -1,6 +1,6 @@
-const User = require("../models/user");
 const { StatusCodes } = require("http-status-codes");
-const { BAD_REQUEST, NOT_FOUND, SERVER_ERROR } = require("../utils/errors");
+const User = require("../models/user");
+const { NOT_FOUND } = require("../utils/errors");
 const handleError = require("../utils/handleError");
 
 const getUsers = (req, res) => {

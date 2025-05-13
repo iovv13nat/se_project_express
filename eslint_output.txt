@@ -1,0 +1,392 @@
+2025-05-13T17:59:27.347Z eslint:cli CLI args: [ '--debug', 'app.js' ]
+2025-05-13T17:59:27.349Z eslint:cli Using flat config? false
+2025-05-13T17:59:27.350Z eslint:cli Running on files
+2025-05-13T17:59:27.353Z eslintrc:config-array-factory Loading JSON config file: /Users/nataliakeegan/Desktop/se_project_express/package.json
+2025-05-13T17:59:27.354Z eslintrc:ignore-pattern Create with: [ IgnorePattern { patterns: [ '/**/node_modules/*' ], basePath: '/Users/nataliakeegan/Desktop/se_project_express', loose: false } ]
+2025-05-13T17:59:27.354Z eslintrc:ignore-pattern   processed: { basePath: '/Users/nataliakeegan/Desktop/se_project_express', patterns: [ '/**/node_modules/*' ] }
+2025-05-13T17:59:27.354Z eslintrc:ignore-pattern Create with: [ IgnorePattern { patterns: [ '/**/node_modules/*' ], basePath: '/Users/nataliakeegan/Desktop/se_project_express', loose: false } ]
+2025-05-13T17:59:27.354Z eslintrc:ignore-pattern   processed: { basePath: '/Users/nataliakeegan/Desktop/se_project_express', patterns: [ '/**/node_modules/*' ] }
+2025-05-13T17:59:27.354Z eslint:file-enumerator Start to iterate files: [ 'app.js' ]
+2025-05-13T17:59:27.354Z eslint:file-enumerator File: /Users/nataliakeegan/Desktop/se_project_express/app.js
+2025-05-13T17:59:27.355Z eslintrc:cascading-config-array-factory Load config files for /Users/nataliakeegan/Desktop/se_project_express.
+2025-05-13T17:59:27.355Z eslintrc:cascading-config-array-factory No cache found: /Users/nataliakeegan/Desktop/se_project_express.
+2025-05-13T17:59:27.355Z eslintrc:config-array-factory Loading JS config file: /Users/nataliakeegan/Desktop/se_project_express/.eslintrc.js
+2025-05-13T17:59:27.355Z eslintrc:config-array-factory Config file found: /Users/nataliakeegan/Desktop/se_project_express/.eslintrc.js
+2025-05-13T17:59:27.355Z eslintrc:config-array-factory Loading {extends:"eslint:recommended"} relative to /Users/nataliakeegan/Desktop/se_project_express/.eslintrc.js
+2025-05-13T17:59:27.355Z eslintrc:config-array-factory Loading {extends:"airbnb-base"} relative to /Users/nataliakeegan/Desktop/se_project_express/.eslintrc.js
+2025-05-13T17:59:27.356Z eslintrc:config-array-factory Loaded: eslint-config-airbnb-base@15.0.0 (/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/index.js)
+2025-05-13T17:59:27.357Z eslintrc:config-array-factory Loading JS config file: /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/index.js
+2025-05-13T17:59:27.358Z eslintrc:config-array-factory Loading {extends:"/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/best-practices.js"} relative to /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/index.js
+2025-05-13T17:59:27.358Z eslintrc:config-array-factory package.json was not found: Cannot find module '/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/best-practices.js/package.json'
+Require stack:
+- /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/index.js
+2025-05-13T17:59:27.358Z eslintrc:config-array-factory Loaded: /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/best-practices.js (/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/best-practices.js)
+2025-05-13T17:59:27.358Z eslintrc:config-array-factory Loading JS config file: /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/best-practices.js
+2025-05-13T17:59:27.358Z eslintrc:config-array-factory Loading {extends:"/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/errors.js"} relative to /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/index.js
+2025-05-13T17:59:27.358Z eslintrc:config-array-factory package.json was not found: Cannot find module '/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/errors.js/package.json'
+Require stack:
+- /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/index.js
+2025-05-13T17:59:27.358Z eslintrc:config-array-factory Loaded: /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/errors.js (/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/errors.js)
+2025-05-13T17:59:27.358Z eslintrc:config-array-factory Loading JS config file: /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/errors.js
+2025-05-13T17:59:27.359Z eslintrc:config-array-factory Loading {extends:"/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/node.js"} relative to /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/index.js
+2025-05-13T17:59:27.359Z eslintrc:config-array-factory package.json was not found: Cannot find module '/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/node.js/package.json'
+Require stack:
+- /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/index.js
+2025-05-13T17:59:27.359Z eslintrc:config-array-factory Loaded: /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/node.js (/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/node.js)
+2025-05-13T17:59:27.359Z eslintrc:config-array-factory Loading JS config file: /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/node.js
+2025-05-13T17:59:27.359Z eslintrc:config-array-factory Loading {extends:"/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/style.js"} relative to /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/index.js
+2025-05-13T17:59:27.359Z eslintrc:config-array-factory package.json was not found: Cannot find module '/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/style.js/package.json'
+Require stack:
+- /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/index.js
+2025-05-13T17:59:27.359Z eslintrc:config-array-factory Loaded: /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/style.js (/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/style.js)
+2025-05-13T17:59:27.359Z eslintrc:config-array-factory Loading JS config file: /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/style.js
+2025-05-13T17:59:27.362Z eslintrc:config-array-factory Loading {extends:"/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/variables.js"} relative to /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/index.js
+2025-05-13T17:59:27.362Z eslintrc:config-array-factory package.json was not found: Cannot find module '/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/variables.js/package.json'
+Require stack:
+- /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/index.js
+2025-05-13T17:59:27.362Z eslintrc:config-array-factory Loaded: /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/variables.js (/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/variables.js)
+2025-05-13T17:59:27.362Z eslintrc:config-array-factory Loading JS config file: /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/variables.js
+2025-05-13T17:59:27.362Z eslintrc:config-array-factory Loading {extends:"/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/es6.js"} relative to /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/index.js
+2025-05-13T17:59:27.363Z eslintrc:config-array-factory package.json was not found: Cannot find module '/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/es6.js/package.json'
+Require stack:
+- /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/index.js
+2025-05-13T17:59:27.363Z eslintrc:config-array-factory Loaded: /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/es6.js (/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/es6.js)
+2025-05-13T17:59:27.363Z eslintrc:config-array-factory Loading JS config file: /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/es6.js
+2025-05-13T17:59:27.363Z eslintrc:config-array-factory Loading {extends:"/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/imports.js"} relative to /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/index.js
+2025-05-13T17:59:27.363Z eslintrc:config-array-factory package.json was not found: Cannot find module '/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/imports.js/package.json'
+Require stack:
+- /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/index.js
+2025-05-13T17:59:27.363Z eslintrc:config-array-factory Loaded: /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/imports.js (/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/imports.js)
+2025-05-13T17:59:27.363Z eslintrc:config-array-factory Loading JS config file: /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/imports.js
+2025-05-13T17:59:27.363Z eslintrc:config-array-factory Loading plugin "import" from /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/imports.js
+2025-05-13T17:59:27.364Z eslintrc:config-array-factory Loaded: eslint-plugin-import@2.31.0 (/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-plugin-import/lib/index.js)
+2025-05-13T17:59:27.465Z eslintrc:config-array-factory Plugin /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-plugin-import/lib/index.js loaded in: 101ms
+2025-05-13T17:59:27.465Z eslintrc:config-array-factory Loading {extends:"/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/strict.js"} relative to /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/index.js
+2025-05-13T17:59:27.465Z eslintrc:config-array-factory package.json was not found: Cannot find module '/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/strict.js/package.json'
+Require stack:
+- /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/index.js
+2025-05-13T17:59:27.465Z eslintrc:config-array-factory Loaded: /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/strict.js (/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/strict.js)
+2025-05-13T17:59:27.465Z eslintrc:config-array-factory Loading JS config file: /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/strict.js
+2025-05-13T17:59:27.466Z eslintrc:config-array-factory Loading {extends:"prettier"} relative to /Users/nataliakeegan/Desktop/se_project_express/.eslintrc.js
+2025-05-13T17:59:27.466Z eslintrc:config-array-factory Loaded: eslint-config-prettier@8.10.0 (/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-prettier/index.js)
+2025-05-13T17:59:27.466Z eslintrc:config-array-factory Loading JS config file: /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-prettier/index.js
+2025-05-13T17:59:27.467Z eslintrc:cascading-config-array-factory No cache found: /Users/nataliakeegan/Desktop.
+2025-05-13T17:59:27.467Z eslintrc:config-array-factory Config file not found on /Users/nataliakeegan/Desktop
+2025-05-13T17:59:27.467Z eslintrc:cascading-config-array-factory No cache found: /Users/nataliakeegan.
+2025-05-13T17:59:27.467Z eslintrc:cascading-config-array-factory Stop traversing because of considered root.
+2025-05-13T17:59:27.467Z eslintrc:config-array-factory Loading package.json config file: /Users/nataliakeegan/package.json
+2025-05-13T17:59:27.467Z eslintrc:config-array-factory Loading JSON config file: /Users/nataliakeegan/package.json
+2025-05-13T17:59:27.467Z eslintrc:config-array-factory Error reading package.json file: /Users/nataliakeegan/package.json
+2025-05-13T17:59:27.467Z eslint:rules Loading rule 'constructor-super' (remaining=290)
+2025-05-13T17:59:27.468Z eslint:rules Loading rule 'for-direction' (remaining=289)
+2025-05-13T17:59:27.468Z eslint:rules Loading rule 'getter-return' (remaining=288)
+2025-05-13T17:59:27.469Z eslint:rules Loading rule 'no-async-promise-executor' (remaining=287)
+2025-05-13T17:59:27.469Z eslint:rules Loading rule 'no-case-declarations' (remaining=286)
+2025-05-13T17:59:27.469Z eslint:rules Loading rule 'no-class-assign' (remaining=285)
+2025-05-13T17:59:27.469Z eslint:rules Loading rule 'no-compare-neg-zero' (remaining=284)
+2025-05-13T17:59:27.469Z eslint:rules Loading rule 'no-cond-assign' (remaining=283)
+2025-05-13T17:59:27.469Z eslint:rules Loading rule 'no-const-assign' (remaining=282)
+2025-05-13T17:59:27.469Z eslint:rules Loading rule 'no-constant-condition' (remaining=281)
+2025-05-13T17:59:27.470Z eslint:rules Loading rule 'no-control-regex' (remaining=280)
+2025-05-13T17:59:27.470Z eslint:rules Loading rule 'no-debugger' (remaining=279)
+2025-05-13T17:59:27.471Z eslint:rules Loading rule 'no-delete-var' (remaining=278)
+2025-05-13T17:59:27.471Z eslint:rules Loading rule 'no-dupe-args' (remaining=277)
+2025-05-13T17:59:27.471Z eslint:rules Loading rule 'no-dupe-class-members' (remaining=276)
+2025-05-13T17:59:27.471Z eslint:rules Loading rule 'no-dupe-else-if' (remaining=275)
+2025-05-13T17:59:27.471Z eslint:rules Loading rule 'no-dupe-keys' (remaining=274)
+2025-05-13T17:59:27.471Z eslint:rules Loading rule 'no-duplicate-case' (remaining=273)
+2025-05-13T17:59:27.471Z eslint:rules Loading rule 'no-empty' (remaining=272)
+2025-05-13T17:59:27.472Z eslint:rules Loading rule 'no-empty-character-class' (remaining=271)
+2025-05-13T17:59:27.472Z eslint:rules Loading rule 'no-empty-pattern' (remaining=270)
+2025-05-13T17:59:27.472Z eslint:rules Loading rule 'no-ex-assign' (remaining=269)
+2025-05-13T17:59:27.472Z eslint:rules Loading rule 'no-extra-boolean-cast' (remaining=268)
+2025-05-13T17:59:27.473Z eslint:rules Loading rule 'no-extra-semi' (remaining=267)
+2025-05-13T17:59:27.473Z eslint:rules Loading rule 'no-fallthrough' (remaining=266)
+2025-05-13T17:59:27.473Z eslint:rules Loading rule 'no-func-assign' (remaining=265)
+2025-05-13T17:59:27.474Z eslint:rules Loading rule 'no-global-assign' (remaining=264)
+2025-05-13T17:59:27.474Z eslint:rules Loading rule 'no-import-assign' (remaining=263)
+2025-05-13T17:59:27.474Z eslint:rules Loading rule 'no-inner-declarations' (remaining=262)
+2025-05-13T17:59:27.475Z eslint:rules Loading rule 'no-invalid-regexp' (remaining=261)
+2025-05-13T17:59:27.475Z eslint:rules Loading rule 'no-irregular-whitespace' (remaining=260)
+2025-05-13T17:59:27.475Z eslint:rules Loading rule 'no-loss-of-precision' (remaining=259)
+2025-05-13T17:59:27.475Z eslint:rules Loading rule 'no-misleading-character-class' (remaining=258)
+2025-05-13T17:59:27.476Z eslint:rules Loading rule 'no-mixed-spaces-and-tabs' (remaining=257)
+2025-05-13T17:59:27.476Z eslint:rules Loading rule 'no-new-symbol' (remaining=256)
+2025-05-13T17:59:27.476Z eslint:rules Loading rule 'no-nonoctal-decimal-escape' (remaining=255)
+2025-05-13T17:59:27.476Z eslint:rules Loading rule 'no-obj-calls' (remaining=254)
+2025-05-13T17:59:27.476Z eslint:rules Loading rule 'no-octal' (remaining=253)
+2025-05-13T17:59:27.477Z eslint:rules Loading rule 'no-prototype-builtins' (remaining=252)
+2025-05-13T17:59:27.477Z eslint:rules Loading rule 'no-redeclare' (remaining=251)
+2025-05-13T17:59:27.477Z eslint:rules Loading rule 'no-regex-spaces' (remaining=250)
+2025-05-13T17:59:27.477Z eslint:rules Loading rule 'no-self-assign' (remaining=249)
+2025-05-13T17:59:27.477Z eslint:rules Loading rule 'no-setter-return' (remaining=248)
+2025-05-13T17:59:27.477Z eslint:rules Loading rule 'no-shadow-restricted-names' (remaining=247)
+2025-05-13T17:59:27.477Z eslint:rules Loading rule 'no-sparse-arrays' (remaining=246)
+2025-05-13T17:59:27.477Z eslint:rules Loading rule 'no-this-before-super' (remaining=245)
+2025-05-13T17:59:27.478Z eslint:rules Loading rule 'no-undef' (remaining=244)
+2025-05-13T17:59:27.478Z eslint:rules Loading rule 'no-unexpected-multiline' (remaining=243)
+2025-05-13T17:59:27.478Z eslint:rules Loading rule 'no-unreachable' (remaining=242)
+2025-05-13T17:59:27.478Z eslint:rules Loading rule 'no-unsafe-finally' (remaining=241)
+2025-05-13T17:59:27.478Z eslint:rules Loading rule 'no-unsafe-negation' (remaining=240)
+2025-05-13T17:59:27.478Z eslint:rules Loading rule 'no-unsafe-optional-chaining' (remaining=239)
+2025-05-13T17:59:27.478Z eslint:rules Loading rule 'no-unused-labels' (remaining=238)
+2025-05-13T17:59:27.479Z eslint:rules Loading rule 'no-unused-vars' (remaining=237)
+2025-05-13T17:59:27.479Z eslint:rules Loading rule 'no-useless-backreference' (remaining=236)
+2025-05-13T17:59:27.479Z eslint:rules Loading rule 'no-useless-catch' (remaining=235)
+2025-05-13T17:59:27.479Z eslint:rules Loading rule 'no-useless-escape' (remaining=234)
+2025-05-13T17:59:27.480Z eslint:rules Loading rule 'no-with' (remaining=233)
+2025-05-13T17:59:27.480Z eslint:rules Loading rule 'require-yield' (remaining=232)
+2025-05-13T17:59:27.480Z eslint:rules Loading rule 'use-isnan' (remaining=231)
+2025-05-13T17:59:27.480Z eslint:rules Loading rule 'valid-typeof' (remaining=230)
+2025-05-13T17:59:27.480Z eslint:rules Loading rule 'accessor-pairs' (remaining=229)
+2025-05-13T17:59:27.481Z eslint:rules Loading rule 'array-callback-return' (remaining=228)
+2025-05-13T17:59:27.481Z eslint:rules Loading rule 'block-scoped-var' (remaining=227)
+2025-05-13T17:59:27.481Z eslint:rules Loading rule 'complexity' (remaining=226)
+2025-05-13T17:59:27.486Z eslint:rules Loading rule 'class-methods-use-this' (remaining=225)
+2025-05-13T17:59:27.486Z eslint:rules Loading rule 'consistent-return' (remaining=224)
+2025-05-13T17:59:27.487Z eslint:rules Loading rule 'curly' (remaining=223)
+2025-05-13T17:59:27.489Z eslint:rules Loading rule 'default-case' (remaining=222)
+2025-05-13T17:59:27.491Z eslint:rules Loading rule 'default-case-last' (remaining=221)
+2025-05-13T17:59:27.491Z eslint:rules Loading rule 'default-param-last' (remaining=220)
+2025-05-13T17:59:27.491Z eslint:rules Loading rule 'dot-notation' (remaining=219)
+2025-05-13T17:59:27.492Z eslint:rules Loading rule 'dot-location' (remaining=218)
+2025-05-13T17:59:27.492Z eslint:rules Loading rule 'eqeqeq' (remaining=217)
+2025-05-13T17:59:27.492Z eslint:rules Loading rule 'grouped-accessor-pairs' (remaining=216)
+2025-05-13T17:59:27.493Z eslint:rules Loading rule 'guard-for-in' (remaining=215)
+2025-05-13T17:59:27.493Z eslint:rules Loading rule 'max-classes-per-file' (remaining=214)
+2025-05-13T17:59:27.493Z eslint:rules Loading rule 'no-alert' (remaining=213)
+2025-05-13T17:59:27.494Z eslint:rules Loading rule 'no-caller' (remaining=212)
+2025-05-13T17:59:27.494Z eslint:rules Loading rule 'no-constructor-return' (remaining=211)
+2025-05-13T17:59:27.494Z eslint:rules Loading rule 'no-div-regex' (remaining=210)
+2025-05-13T17:59:27.494Z eslint:rules Loading rule 'no-else-return' (remaining=209)
+2025-05-13T17:59:27.494Z eslint:rules Loading rule 'no-empty-function' (remaining=208)
+2025-05-13T17:59:27.495Z eslint:rules Loading rule 'no-eq-null' (remaining=207)
+2025-05-13T17:59:27.495Z eslint:rules Loading rule 'no-eval' (remaining=206)
+2025-05-13T17:59:27.495Z eslint:rules Loading rule 'no-extend-native' (remaining=205)
+2025-05-13T17:59:27.496Z eslint:rules Loading rule 'no-extra-bind' (remaining=204)
+2025-05-13T17:59:27.498Z eslint:rules Loading rule 'no-extra-label' (remaining=203)
+2025-05-13T17:59:27.498Z eslint:rules Loading rule 'no-floating-decimal' (remaining=202)
+2025-05-13T17:59:27.498Z eslint:rules Loading rule 'no-native-reassign' (remaining=201)
+2025-05-13T17:59:27.498Z eslint:rules Loading rule 'no-implicit-coercion' (remaining=200)
+2025-05-13T17:59:27.498Z eslint:rules Loading rule 'no-implicit-globals' (remaining=199)
+2025-05-13T17:59:27.499Z eslint:rules Loading rule 'no-implied-eval' (remaining=198)
+2025-05-13T17:59:27.499Z eslint:rules Loading rule 'no-invalid-this' (remaining=197)
+2025-05-13T17:59:27.499Z eslint:rules Loading rule 'no-iterator' (remaining=196)
+2025-05-13T17:59:27.499Z eslint:rules Loading rule 'no-labels' (remaining=195)
+2025-05-13T17:59:27.499Z eslint:rules Loading rule 'no-lone-blocks' (remaining=194)
+2025-05-13T17:59:27.500Z eslint:rules Loading rule 'no-loop-func' (remaining=193)
+2025-05-13T17:59:27.500Z eslint:rules Loading rule 'no-magic-numbers' (remaining=192)
+2025-05-13T17:59:27.500Z eslint:rules Loading rule 'no-multi-spaces' (remaining=191)
+2025-05-13T17:59:27.500Z eslint:rules Loading rule 'no-multi-str' (remaining=190)
+2025-05-13T17:59:27.501Z eslint:rules Loading rule 'no-new' (remaining=189)
+2025-05-13T17:59:27.502Z eslint:rules Loading rule 'no-new-func' (remaining=188)
+2025-05-13T17:59:27.503Z eslint:rules Loading rule 'no-new-wrappers' (remaining=187)
+2025-05-13T17:59:27.503Z eslint:rules Loading rule 'no-octal-escape' (remaining=186)
+2025-05-13T17:59:27.503Z eslint:rules Loading rule 'no-param-reassign' (remaining=185)
+2025-05-13T17:59:27.503Z eslint:rules Loading rule 'no-proto' (remaining=184)
+2025-05-13T17:59:27.504Z eslint:rules Loading rule 'no-restricted-properties' (remaining=183)
+2025-05-13T17:59:27.504Z eslint:rules Loading rule 'no-return-assign' (remaining=182)
+2025-05-13T17:59:27.505Z eslint:rules Loading rule 'no-return-await' (remaining=181)
+2025-05-13T17:59:27.505Z eslint:rules Loading rule 'no-script-url' (remaining=180)
+2025-05-13T17:59:27.505Z eslint:rules Loading rule 'no-self-compare' (remaining=179)
+2025-05-13T17:59:27.505Z eslint:rules Loading rule 'no-sequences' (remaining=178)
+2025-05-13T17:59:27.506Z eslint:rules Loading rule 'no-throw-literal' (remaining=177)
+2025-05-13T17:59:27.506Z eslint:rules Loading rule 'no-unmodified-loop-condition' (remaining=176)
+2025-05-13T17:59:27.506Z eslint:rules Loading rule 'no-unused-expressions' (remaining=175)
+2025-05-13T17:59:27.506Z eslint:rules Loading rule 'no-useless-call' (remaining=174)
+2025-05-13T17:59:27.506Z eslint:rules Loading rule 'no-useless-concat' (remaining=173)
+2025-05-13T17:59:27.506Z eslint:rules Loading rule 'no-useless-return' (remaining=172)
+2025-05-13T17:59:27.507Z eslint:rules Loading rule 'no-void' (remaining=171)
+2025-05-13T17:59:27.507Z eslint:rules Loading rule 'no-warning-comments' (remaining=170)
+2025-05-13T17:59:27.507Z eslint:rules Loading rule 'prefer-promise-reject-errors' (remaining=169)
+2025-05-13T17:59:27.508Z eslint:rules Loading rule 'prefer-named-capture-group' (remaining=168)
+2025-05-13T17:59:27.508Z eslint:rules Loading rule 'prefer-regex-literals' (remaining=167)
+2025-05-13T17:59:27.508Z eslint:rules Loading rule 'radix' (remaining=166)
+2025-05-13T17:59:27.508Z eslint:rules Loading rule 'require-await' (remaining=165)
+2025-05-13T17:59:27.508Z eslint:rules Loading rule 'require-unicode-regexp' (remaining=164)
+2025-05-13T17:59:27.509Z eslint:rules Loading rule 'vars-on-top' (remaining=163)
+2025-05-13T17:59:27.509Z eslint:rules Loading rule 'wrap-iife' (remaining=162)
+2025-05-13T17:59:27.509Z eslint:rules Loading rule 'yoda' (remaining=161)
+2025-05-13T17:59:27.510Z eslint:rules Loading rule 'no-await-in-loop' (remaining=160)
+2025-05-13T17:59:27.511Z eslint:rules Loading rule 'no-console' (remaining=159)
+2025-05-13T17:59:27.511Z eslint:rules Loading rule 'no-extra-parens' (remaining=158)
+2025-05-13T17:59:27.512Z eslint:rules Loading rule 'no-promise-executor-return' (remaining=157)
+2025-05-13T17:59:27.513Z eslint:rules Loading rule 'no-template-curly-in-string' (remaining=156)
+2025-05-13T17:59:27.513Z eslint:rules Loading rule 'no-unreachable-loop' (remaining=155)
+2025-05-13T17:59:27.515Z eslint:rules Loading rule 'no-unused-private-class-members' (remaining=154)
+2025-05-13T17:59:27.515Z eslint:rules Loading rule 'no-negated-in-lhs' (remaining=153)
+2025-05-13T17:59:27.515Z eslint:rules Loading rule 'require-atomic-updates' (remaining=152)
+2025-05-13T17:59:27.515Z eslint:rules Loading rule 'valid-jsdoc' (remaining=151)
+2025-05-13T17:59:27.517Z eslint:rules Loading rule 'callback-return' (remaining=150)
+2025-05-13T17:59:27.518Z eslint:rules Loading rule 'global-require' (remaining=149)
+2025-05-13T17:59:27.518Z eslint:rules Loading rule 'handle-callback-err' (remaining=148)
+2025-05-13T17:59:27.518Z eslint:rules Loading rule 'no-buffer-constructor' (remaining=147)
+2025-05-13T17:59:27.518Z eslint:rules Loading rule 'no-mixed-requires' (remaining=146)
+2025-05-13T17:59:27.519Z eslint:rules Loading rule 'no-new-require' (remaining=145)
+2025-05-13T17:59:27.519Z eslint:rules Loading rule 'no-path-concat' (remaining=144)
+2025-05-13T17:59:27.519Z eslint:rules Loading rule 'no-process-env' (remaining=143)
+2025-05-13T17:59:27.519Z eslint:rules Loading rule 'no-process-exit' (remaining=142)
+2025-05-13T17:59:27.519Z eslint:rules Loading rule 'no-restricted-modules' (remaining=141)
+2025-05-13T17:59:27.520Z eslint:rules Loading rule 'no-sync' (remaining=140)
+2025-05-13T17:59:27.520Z eslint:rules Loading rule 'array-bracket-newline' (remaining=139)
+2025-05-13T17:59:27.520Z eslint:rules Loading rule 'array-element-newline' (remaining=138)
+2025-05-13T17:59:27.520Z eslint:rules Loading rule 'array-bracket-spacing' (remaining=137)
+2025-05-13T17:59:27.521Z eslint:rules Loading rule 'block-spacing' (remaining=136)
+2025-05-13T17:59:27.521Z eslint:rules Loading rule 'brace-style' (remaining=135)
+2025-05-13T17:59:27.522Z eslint:rules Loading rule 'camelcase' (remaining=134)
+2025-05-13T17:59:27.522Z eslint:rules Loading rule 'capitalized-comments' (remaining=133)
+2025-05-13T17:59:27.523Z eslint:rules Loading rule 'comma-dangle' (remaining=132)
+2025-05-13T17:59:27.523Z eslint:rules Loading rule 'comma-spacing' (remaining=131)
+2025-05-13T17:59:27.524Z eslint:rules Loading rule 'comma-style' (remaining=130)
+2025-05-13T17:59:27.524Z eslint:rules Loading rule 'computed-property-spacing' (remaining=129)
+2025-05-13T17:59:27.525Z eslint:rules Loading rule 'consistent-this' (remaining=128)
+2025-05-13T17:59:27.525Z eslint:rules Loading rule 'eol-last' (remaining=127)
+2025-05-13T17:59:27.525Z eslint:rules Loading rule 'function-call-argument-newline' (remaining=126)
+2025-05-13T17:59:27.525Z eslint:rules Loading rule 'func-call-spacing' (remaining=125)
+2025-05-13T17:59:27.526Z eslint:rules Loading rule 'func-name-matching' (remaining=124)
+2025-05-13T17:59:27.526Z eslint:rules Loading rule 'func-names' (remaining=123)
+2025-05-13T17:59:27.527Z eslint:rules Loading rule 'func-style' (remaining=122)
+2025-05-13T17:59:27.527Z eslint:rules Loading rule 'function-paren-newline' (remaining=121)
+2025-05-13T17:59:27.527Z eslint:rules Loading rule 'id-denylist' (remaining=120)
+2025-05-13T17:59:27.528Z eslint:rules Loading rule 'id-length' (remaining=119)
+2025-05-13T17:59:27.528Z eslint:rules Loading rule 'id-match' (remaining=118)
+2025-05-13T17:59:27.528Z eslint:rules Loading rule 'implicit-arrow-linebreak' (remaining=117)
+2025-05-13T17:59:27.528Z eslint:rules Loading rule 'indent' (remaining=116)
+2025-05-13T17:59:27.531Z eslint:rules Loading rule 'jsx-quotes' (remaining=115)
+2025-05-13T17:59:27.531Z eslint:rules Loading rule 'key-spacing' (remaining=114)
+2025-05-13T17:59:27.532Z eslint:rules Loading rule 'keyword-spacing' (remaining=113)
+2025-05-13T17:59:27.537Z eslint:rules Loading rule 'line-comment-position' (remaining=112)
+2025-05-13T17:59:27.537Z eslint:rules Loading rule 'linebreak-style' (remaining=111)
+2025-05-13T17:59:27.537Z eslint:rules Loading rule 'lines-between-class-members' (remaining=110)
+2025-05-13T17:59:27.538Z eslint:rules Loading rule 'lines-around-comment' (remaining=109)
+2025-05-13T17:59:27.538Z eslint:rules Loading rule 'lines-around-directive' (remaining=108)
+2025-05-13T17:59:27.539Z eslint:rules Loading rule 'max-depth' (remaining=107)
+2025-05-13T17:59:27.539Z eslint:rules Loading rule 'max-len' (remaining=106)
+2025-05-13T17:59:27.541Z eslint:rules Loading rule 'max-lines' (remaining=105)
+2025-05-13T17:59:27.541Z eslint:rules Loading rule 'max-lines-per-function' (remaining=104)
+2025-05-13T17:59:27.541Z eslint:rules Loading rule 'max-nested-callbacks' (remaining=103)
+2025-05-13T17:59:27.541Z eslint:rules Loading rule 'max-params' (remaining=102)
+2025-05-13T17:59:27.542Z eslint:rules Loading rule 'max-statements' (remaining=101)
+2025-05-13T17:59:27.542Z eslint:rules Loading rule 'max-statements-per-line' (remaining=100)
+2025-05-13T17:59:27.542Z eslint:rules Loading rule 'multiline-comment-style' (remaining=99)
+2025-05-13T17:59:27.543Z eslint:rules Loading rule 'multiline-ternary' (remaining=98)
+2025-05-13T17:59:27.543Z eslint:rules Loading rule 'new-cap' (remaining=97)
+2025-05-13T17:59:27.543Z eslint:rules Loading rule 'new-parens' (remaining=96)
+2025-05-13T17:59:27.544Z eslint:rules Loading rule 'newline-after-var' (remaining=95)
+2025-05-13T17:59:27.544Z eslint:rules Loading rule 'newline-before-return' (remaining=94)
+2025-05-13T17:59:27.544Z eslint:rules Loading rule 'newline-per-chained-call' (remaining=93)
+2025-05-13T17:59:27.545Z eslint:rules Loading rule 'no-array-constructor' (remaining=92)
+2025-05-13T17:59:27.545Z eslint:rules Loading rule 'no-bitwise' (remaining=91)
+2025-05-13T17:59:27.545Z eslint:rules Loading rule 'no-continue' (remaining=90)
+2025-05-13T17:59:27.545Z eslint:rules Loading rule 'no-inline-comments' (remaining=89)
+2025-05-13T17:59:27.545Z eslint:rules Loading rule 'no-lonely-if' (remaining=88)
+2025-05-13T17:59:27.546Z eslint:rules Loading rule 'no-mixed-operators' (remaining=87)
+2025-05-13T17:59:27.546Z eslint:rules Loading rule 'no-multi-assign' (remaining=86)
+2025-05-13T17:59:27.546Z eslint:rules Loading rule 'no-multiple-empty-lines' (remaining=85)
+2025-05-13T17:59:27.547Z eslint:rules Loading rule 'no-negated-condition' (remaining=84)
+2025-05-13T17:59:27.547Z eslint:rules Loading rule 'no-nested-ternary' (remaining=83)
+2025-05-13T17:59:27.547Z eslint:rules Loading rule 'no-new-object' (remaining=82)
+2025-05-13T17:59:27.548Z eslint:rules Loading rule 'no-plusplus' (remaining=81)
+2025-05-13T17:59:27.548Z eslint:rules Loading rule 'no-restricted-syntax' (remaining=80)
+2025-05-13T17:59:27.548Z eslint:rules Loading rule 'no-spaced-func' (remaining=79)
+2025-05-13T17:59:27.548Z eslint:rules Loading rule 'no-tabs' (remaining=78)
+2025-05-13T17:59:27.549Z eslint:rules Loading rule 'no-ternary' (remaining=77)
+2025-05-13T17:59:27.549Z eslint:rules Loading rule 'no-trailing-spaces' (remaining=76)
+2025-05-13T17:59:27.549Z eslint:rules Loading rule 'no-underscore-dangle' (remaining=75)
+2025-05-13T17:59:27.550Z eslint:rules Loading rule 'no-unneeded-ternary' (remaining=74)
+2025-05-13T17:59:27.550Z eslint:rules Loading rule 'no-whitespace-before-property' (remaining=73)
+2025-05-13T17:59:27.550Z eslint:rules Loading rule 'nonblock-statement-body-position' (remaining=72)
+2025-05-13T17:59:27.551Z eslint:rules Loading rule 'object-curly-spacing' (remaining=71)
+2025-05-13T17:59:27.551Z eslint:rules Loading rule 'object-curly-newline' (remaining=70)
+2025-05-13T17:59:27.552Z eslint:rules Loading rule 'object-property-newline' (remaining=69)
+2025-05-13T17:59:27.552Z eslint:rules Loading rule 'one-var' (remaining=68)
+2025-05-13T17:59:27.553Z eslint:rules Loading rule 'one-var-declaration-per-line' (remaining=67)
+2025-05-13T17:59:27.553Z eslint:rules Loading rule 'operator-assignment' (remaining=66)
+2025-05-13T17:59:27.554Z eslint:rules Loading rule 'operator-linebreak' (remaining=65)
+2025-05-13T17:59:27.554Z eslint:rules Loading rule 'padded-blocks' (remaining=64)
+2025-05-13T17:59:27.555Z eslint:rules Loading rule 'padding-line-between-statements' (remaining=63)
+2025-05-13T17:59:27.555Z eslint:rules Loading rule 'prefer-exponentiation-operator' (remaining=62)
+2025-05-13T17:59:27.556Z eslint:rules Loading rule 'prefer-object-spread' (remaining=61)
+2025-05-13T17:59:27.556Z eslint:rules Loading rule 'quote-props' (remaining=60)
+2025-05-13T17:59:27.556Z eslint:rules Loading rule 'quotes' (remaining=59)
+2025-05-13T17:59:27.557Z eslint:rules Loading rule 'require-jsdoc' (remaining=58)
+2025-05-13T17:59:27.557Z eslint:rules Loading rule 'semi' (remaining=57)
+2025-05-13T17:59:27.558Z eslint:rules Loading rule 'semi-spacing' (remaining=56)
+2025-05-13T17:59:27.558Z eslint:rules Loading rule 'semi-style' (remaining=55)
+2025-05-13T17:59:27.558Z eslint:rules Loading rule 'sort-keys' (remaining=54)
+2025-05-13T17:59:27.559Z eslint:rules Loading rule 'sort-vars' (remaining=53)
+2025-05-13T17:59:27.559Z eslint:rules Loading rule 'space-before-blocks' (remaining=52)
+2025-05-13T17:59:27.559Z eslint:rules Loading rule 'space-before-function-paren' (remaining=51)
+2025-05-13T17:59:27.560Z eslint:rules Loading rule 'space-in-parens' (remaining=50)
+2025-05-13T17:59:27.560Z eslint:rules Loading rule 'space-infix-ops' (remaining=49)
+2025-05-13T17:59:27.561Z eslint:rules Loading rule 'space-unary-ops' (remaining=48)
+2025-05-13T17:59:27.561Z eslint:rules Loading rule 'spaced-comment' (remaining=47)
+2025-05-13T17:59:27.562Z eslint:rules Loading rule 'switch-colon-spacing' (remaining=46)
+2025-05-13T17:59:27.562Z eslint:rules Loading rule 'template-tag-spacing' (remaining=45)
+2025-05-13T17:59:27.562Z eslint:rules Loading rule 'unicode-bom' (remaining=44)
+2025-05-13T17:59:27.562Z eslint:rules Loading rule 'wrap-regex' (remaining=43)
+2025-05-13T17:59:27.563Z eslint:rules Loading rule 'init-declarations' (remaining=42)
+2025-05-13T17:59:27.563Z eslint:rules Loading rule 'no-catch-shadow' (remaining=41)
+2025-05-13T17:59:27.563Z eslint:rules Loading rule 'no-label-var' (remaining=40)
+2025-05-13T17:59:27.563Z eslint:rules Loading rule 'no-restricted-globals' (remaining=39)
+2025-05-13T17:59:27.564Z eslint:rules Loading rule 'no-shadow' (remaining=38)
+2025-05-13T17:59:27.564Z eslint:rules Loading rule 'no-undef-init' (remaining=37)
+2025-05-13T17:59:27.565Z eslint:rules Loading rule 'no-undefined' (remaining=36)
+2025-05-13T17:59:27.565Z eslint:rules Loading rule 'no-use-before-define' (remaining=35)
+2025-05-13T17:59:27.565Z eslint:rules Loading rule 'arrow-body-style' (remaining=34)
+2025-05-13T17:59:27.566Z eslint:rules Loading rule 'arrow-parens' (remaining=33)
+2025-05-13T17:59:27.566Z eslint:rules Loading rule 'arrow-spacing' (remaining=32)
+2025-05-13T17:59:27.567Z eslint:rules Loading rule 'generator-star-spacing' (remaining=31)
+2025-05-13T17:59:27.568Z eslint:rules Loading rule 'no-confusing-arrow' (remaining=30)
+2025-05-13T17:59:27.568Z eslint:rules Loading rule 'no-duplicate-imports' (remaining=29)
+2025-05-13T17:59:27.568Z eslint:rules Loading rule 'no-restricted-exports' (remaining=28)
+2025-05-13T17:59:27.569Z eslint:rules Loading rule 'no-restricted-imports' (remaining=27)
+2025-05-13T17:59:27.569Z eslint:rules Loading rule 'no-useless-computed-key' (remaining=26)
+2025-05-13T17:59:27.570Z eslint:rules Loading rule 'no-useless-constructor' (remaining=25)
+2025-05-13T17:59:27.570Z eslint:rules Loading rule 'no-useless-rename' (remaining=24)
+2025-05-13T17:59:27.570Z eslint:rules Loading rule 'no-var' (remaining=23)
+2025-05-13T17:59:27.570Z eslint:rules Loading rule 'object-shorthand' (remaining=22)
+2025-05-13T17:59:27.571Z eslint:rules Loading rule 'prefer-arrow-callback' (remaining=21)
+2025-05-13T17:59:27.571Z eslint:rules Loading rule 'prefer-const' (remaining=20)
+2025-05-13T17:59:27.572Z eslint:rules Loading rule 'prefer-destructuring' (remaining=19)
+2025-05-13T17:59:27.572Z eslint:rules Loading rule 'prefer-numeric-literals' (remaining=18)
+2025-05-13T17:59:27.573Z eslint:rules Loading rule 'prefer-reflect' (remaining=17)
+2025-05-13T17:59:27.573Z eslint:rules Loading rule 'prefer-rest-params' (remaining=16)
+2025-05-13T17:59:27.573Z eslint:rules Loading rule 'prefer-spread' (remaining=15)
+2025-05-13T17:59:27.573Z eslint:rules Loading rule 'prefer-template' (remaining=14)
+2025-05-13T17:59:27.573Z eslint:rules Loading rule 'rest-spread-spacing' (remaining=13)
+2025-05-13T17:59:27.573Z eslint:rules Loading rule 'sort-imports' (remaining=12)
+2025-05-13T17:59:27.574Z eslint:rules Loading rule 'symbol-description' (remaining=11)
+2025-05-13T17:59:27.574Z eslint:rules Loading rule 'template-curly-spacing' (remaining=10)
+2025-05-13T17:59:27.574Z eslint:rules Loading rule 'yield-star-spacing' (remaining=9)
+2025-05-13T17:59:27.577Z eslint:rules Loading rule 'strict' (remaining=8)
+2025-05-13T17:59:27.577Z eslint:rules Loading rule 'indent-legacy' (remaining=7)
+2025-05-13T17:59:27.580Z eslintrc:cascading-config-array-factory Configuration was determined: ConfigArray(14) [ { type: 'config', name: 'DefaultIgnorePattern', filePath: '', criteria: null, env: undefined, globals: undefined, ignorePattern: IgnorePattern { patterns: [Array], basePath: '/Users/nataliakeegan/Desktop/se_project_express', loose: false }, noInlineConfig: undefined, parser: undefined, parserOptions: undefined, plugins: undefined, processor: undefined, reportUnusedDisableDirectives: undefined, root: undefined, rules: undefined, settings: undefined }, { type: 'config', name: '.eslintrc.js » eslint:recommended', filePath: '', criteria: null, env: undefined, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: undefined, parserOptions: undefined, plugins: undefined, processor: undefined, reportUnusedDisableDirectives: undefined, root: undefined, rules: { 'constructor-super': 'error', 'for-direction': 'error', 'getter-return': 'error', 'no-async-promise-executor': 'error', 'no-case-declarations': 'error', 'no-class-assign': 'error', 'no-compare-neg-zero': 'error', 'no-cond-assign': 'error', 'no-const-assign': 'error', 'no-constant-condition': 'error', 'no-control-regex': 'error', 'no-debugger': 'error', 'no-delete-var': 'error', 'no-dupe-args': 'error', 'no-dupe-class-members': 'error', 'no-dupe-else-if': 'error', 'no-dupe-keys': 'error', 'no-duplicate-case': 'error', 'no-empty': 'error', 'no-empty-character-class': 'error', 'no-empty-pattern': 'error', 'no-ex-assign': 'error', 'no-extra-boolean-cast': 'error', 'no-extra-semi': 'error', 'no-fallthrough': 'error', 'no-func-assign': 'error', 'no-global-assign': 'error', 'no-import-assign': 'error', 'no-inner-declarations': 'error', 'no-invalid-regexp': 'error', 'no-irregular-whitespace': 'error', 'no-loss-of-precision': 'error', 'no-misleading-character-class': 'error', 'no-mixed-spaces-and-tabs': 'error', 'no-new-symbol': 'error', 'no-nonoctal-decimal-escape': 'error', 'no-obj-calls': 'error', 'no-octal': 'error', 'no-prototype-builtins': 'error', 'no-redeclare': 'error', 'no-regex-spaces': 'error', 'no-self-assign': 'error', 'no-setter-return': 'error', 'no-shadow-restricted-names': 'error', 'no-sparse-arrays': 'error', 'no-this-before-super': 'error', 'no-undef': 'error', 'no-unexpected-multiline': 'error', 'no-unreachable': 'error', 'no-unsafe-finally': 'error', 'no-unsafe-negation': 'error', 'no-unsafe-optional-chaining': 'error', 'no-unused-labels': 'error', 'no-unused-vars': 'error', 'no-useless-backreference': 'error', 'no-useless-catch': 'error', 'no-useless-escape': 'error', 'no-with': 'error', 'require-yield': 'error', 'use-isnan': 'error', 'valid-typeof': 'error' }, settings: undefined }, { type: 'config', name: '.eslintrc.js » eslint-config-airbnb-base » /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/best-practices.js', filePath: '/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/best-practices.js', criteria: null, env: undefined, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: undefined, parserOptions: undefined, plugins: undefined, processor: undefined, reportUnusedDisableDirectives: undefined, root: undefined, rules: { 'accessor-pairs': 'off', 'array-callback-return': [Array], 'block-scoped-var': 'error', complexity: [Array], 'class-methods-use-this': [Array], 'consistent-return': 'error', curly: [Array], 'default-case': [Array], 'default-case-last': 'error', 'default-param-last': 'error', 'dot-notation': [Array], 'dot-location': [Array], eqeqeq: [Array], 'grouped-accessor-pairs': 'error', 'guard-for-in': 'error', 'max-classes-per-file': [Array], 'no-alert': 'warn', 'no-caller': 'error', 'no-case-declarations': 'error', 'no-constructor-return': 'error', 'no-div-regex': 'off', 'no-else-return': [Array], 'no-empty-function': [Array], 'no-empty-pattern': 'error', 'no-eq-null': 'off', 'no-eval': 'error', 'no-extend-native': 'error', 'no-extra-bind': 'error', 'no-extra-label': 'error', 'no-fallthrough': 'error', 'no-floating-decimal': 'error', 'no-global-assign': [Array], 'no-native-reassign': 'off', 'no-implicit-coercion': [Array], 'no-implicit-globals': 'off', 'no-implied-eval': 'error', 'no-invalid-this': 'off', 'no-iterator': 'error', 'no-labels': [Array], 'no-lone-blocks': 'error', 'no-loop-func': 'error', 'no-magic-numbers': [Array], 'no-multi-spaces': [Array], 'no-multi-str': 'error', 'no-new': 'error', 'no-new-func': 'error', 'no-new-wrappers': 'error', 'no-nonoctal-decimal-escape': 'error', 'no-octal': 'error', 'no-octal-escape': 'error', 'no-param-reassign': [Array], 'no-proto': 'error', 'no-redeclare': 'error', 'no-restricted-properties': [Array], 'no-return-assign': [Array], 'no-return-await': 'error', 'no-script-url': 'error', 'no-self-assign': [Array], 'no-self-compare': 'error', 'no-sequences': 'error', 'no-throw-literal': 'error', 'no-unmodified-loop-condition': 'off', 'no-unused-expressions': [Array], 'no-unused-labels': 'error', 'no-useless-call': 'off', 'no-useless-catch': 'error', 'no-useless-concat': 'error', 'no-useless-escape': 'error', 'no-useless-return': 'error', 'no-void': 'error', 'no-warning-comments': [Array], 'no-with': 'error', 'prefer-promise-reject-errors': [Array], 'prefer-named-capture-group': 'off', 'prefer-regex-literals': [Array], radix: 'error', 'require-await': 'off', 'require-unicode-regexp': 'off', 'vars-on-top': 'error', 'wrap-iife': [Array], yoda: 'error' }, settings: undefined }, { type: 'config', name: '.eslintrc.js » eslint-config-airbnb-base » /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/errors.js', filePath: '/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/errors.js', criteria: null, env: undefined, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: undefined, parserOptions: undefined, plugins: undefined, processor: undefined, reportUnusedDisableDirectives: undefined, root: undefined, rules: { 'for-direction': 'error', 'getter-return': [Array], 'no-async-promise-executor': 'error', 'no-await-in-loop': 'error', 'no-compare-neg-zero': 'error', 'no-cond-assign': [Array], 'no-console': 'warn', 'no-constant-condition': 'warn', 'no-control-regex': 'error', 'no-debugger': 'error', 'no-dupe-args': 'error', 'no-dupe-else-if': 'error', 'no-dupe-keys': 'error', 'no-duplicate-case': 'error', 'no-empty': 'error', 'no-empty-character-class': 'error', 'no-ex-assign': 'error', 'no-extra-boolean-cast': 'error', 'no-extra-parens': [Array], 'no-extra-semi': 'error', 'no-func-assign': 'error', 'no-import-assign': 'error', 'no-inner-declarations': 'error', 'no-invalid-regexp': 'error', 'no-irregular-whitespace': 'error', 'no-loss-of-precision': 'error', 'no-misleading-character-class': 'error', 'no-obj-calls': 'error', 'no-promise-executor-return': 'error', 'no-prototype-builtins': 'error', 'no-regex-spaces': 'error', 'no-setter-return': 'error', 'no-sparse-arrays': 'error', 'no-template-curly-in-string': 'error', 'no-unexpected-multiline': 'error', 'no-unreachable': 'error', 'no-unreachable-loop': [Array], 'no-unsafe-finally': 'error', 'no-unsafe-negation': 'error', 'no-unsafe-optional-chaining': [Array], 'no-unused-private-class-members': 'off', 'no-useless-backreference': 'error', 'no-negated-in-lhs': 'off', 'require-atomic-updates': 'off', 'use-isnan': 'error', 'valid-jsdoc': 'off', 'valid-typeof': [Array] }, settings: undefined }, { type: 'config', name: '.eslintrc.js » eslint-config-airbnb-base » /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/node.js', filePath: '/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/node.js', criteria: null, env: { node: true }, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: undefined, parserOptions: undefined, plugins: undefined, processor: undefined, reportUnusedDisableDirectives: undefined, root: undefined, rules: { 'callback-return': 'off', 'global-require': 'error', 'handle-callback-err': 'off', 'no-buffer-constructor': 'error', 'no-mixed-requires': [Array], 'no-new-require': 'error', 'no-path-concat': 'error', 'no-process-env': 'off', 'no-process-exit': 'off', 'no-restricted-modules': 'off', 'no-sync': 'off' }, settings: undefined }, { type: 'config', name: '.eslintrc.js » eslint-config-airbnb-base » /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/style.js', filePath: '/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/style.js', criteria: null, env: undefined, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: undefined, parserOptions: undefined, plugins: undefined, processor: undefined, reportUnusedDisableDirectives: undefined, root: undefined, rules: { 'array-bracket-newline': [Array], 'array-element-newline': [Array], 'array-bracket-spacing': [Array], 'block-spacing': [Array], 'brace-style': [Array], camelcase: [Array], 'capitalized-comments': [Array], 'comma-dangle': [Array], 'comma-spacing': [Array], 'comma-style': [Array], 'computed-property-spacing': [Array], 'consistent-this': 'off', 'eol-last': [Array], 'function-call-argument-newline': [Array], 'func-call-spacing': [Array], 'func-name-matching': [Array], 'func-names': 'warn', 'func-style': [Array], 'function-paren-newline': [Array], 'id-denylist': 'off', 'id-length': 'off', 'id-match': 'off', 'implicit-arrow-linebreak': [Array], indent: [Array], 'jsx-quotes': [Array], 'key-spacing': [Array], 'keyword-spacing': [Array], 'line-comment-position': [Array], 'linebreak-style': [Array], 'lines-between-class-members': [Array], 'lines-around-comment': 'off', 'lines-around-directive': [Array], 'max-depth': [Array], 'max-len': [Array], 'max-lines': [Array], 'max-lines-per-function': [Array], 'max-nested-callbacks': 'off', 'max-params': [Array], 'max-statements': [Array], 'max-statements-per-line': [Array], 'multiline-comment-style': [Array], 'multiline-ternary': [Array], 'new-cap': [Array], 'new-parens': 'error', 'newline-after-var': 'off', 'newline-before-return': 'off', 'newline-per-chained-call': [Array], 'no-array-constructor': 'error', 'no-bitwise': 'error', 'no-continue': 'error', 'no-inline-comments': 'off', 'no-lonely-if': 'error', 'no-mixed-operators': [Array], 'no-mixed-spaces-and-tabs': 'error', 'no-multi-assign': [Array], 'no-multiple-empty-lines': [Array], 'no-negated-condition': 'off', 'no-nested-ternary': 'error', 'no-new-object': 'error', 'no-plusplus': 'error', 'no-restricted-syntax': [Array], 'no-spaced-func': 'error', 'no-tabs': 'error', 'no-ternary': 'off', 'no-trailing-spaces': [Array], 'no-underscore-dangle': [Array], 'no-unneeded-ternary': [Array], 'no-whitespace-before-property': 'error', 'nonblock-statement-body-position': [Array], 'object-curly-spacing': [Array], 'object-curly-newline': [Array], 'object-property-newline': [Array], 'one-var': [Array], 'one-var-declaration-per-line': [Array], 'operator-assignment': [Array], 'operator-linebreak': [Array], 'padded-blocks': [Array], 'padding-line-between-statements': 'off', 'prefer-exponentiation-operator': 'error', 'prefer-object-spread': 'error', 'quote-props': [Array], quotes: [Array], 'require-jsdoc': 'off', semi: [Array], 'semi-spacing': [Array], 'semi-style': [Array], 'sort-keys': [Array], 'sort-vars': 'off', 'space-before-blocks': 'error', 'space-before-function-paren': [Array], 'space-in-parens': [Array], 'space-infix-ops': 'error', 'space-unary-ops': [Array], 'spaced-comment': [Array], 'switch-colon-spacing': [Array], 'template-tag-spacing': [Array], 'unicode-bom': [Array], 'wrap-regex': 'off' }, settings: undefined }, { type: 'config', name: '.eslintrc.js » eslint-config-airbnb-base » /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/variables.js', filePath: '/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/variables.js', criteria: null, env: undefined, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: undefined, parserOptions: undefined, plugins: undefined, processor: undefined, reportUnusedDisableDirectives: undefined, root: undefined, rules: { 'init-declarations': 'off', 'no-catch-shadow': 'off', 'no-delete-var': 'error', 'no-label-var': 'error', 'no-restricted-globals': [Array], 'no-shadow': 'error', 'no-shadow-restricted-names': 'error', 'no-undef': 'error', 'no-undef-init': 'error', 'no-undefined': 'off', 'no-unused-vars': [Array], 'no-use-before-define': [Array] }, settings: undefined }, { type: 'config', name: '.eslintrc.js » eslint-config-airbnb-base » /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/es6.js', filePath: '/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/es6.js', criteria: null, env: { es6: true }, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: undefined, parserOptions: { ecmaVersion: 6, sourceType: 'module', ecmaFeatures: [Object] }, plugins: undefined, processor: undefined, reportUnusedDisableDirectives: undefined, root: undefined, rules: { 'arrow-body-style': [Array], 'arrow-parens': [Array], 'arrow-spacing': [Array], 'constructor-super': 'error', 'generator-star-spacing': [Array], 'no-class-assign': 'error', 'no-confusing-arrow': [Array], 'no-const-assign': 'error', 'no-dupe-class-members': 'error', 'no-duplicate-imports': 'off', 'no-new-symbol': 'error', 'no-restricted-exports': [Array], 'no-restricted-imports': [Array], 'no-this-before-super': 'error', 'no-useless-computed-key': 'error', 'no-useless-constructor': 'error', 'no-useless-rename': [Array], 'no-var': 'error', 'object-shorthand': [Array], 'prefer-arrow-callback': [Array], 'prefer-const': [Array], 'prefer-destructuring': [Array], 'prefer-numeric-literals': 'error', 'prefer-reflect': 'off', 'prefer-rest-params': 'error', 'prefer-spread': 'error', 'prefer-template': 'error', 'require-yield': 'error', 'rest-spread-spacing': [Array], 'sort-imports': [Array], 'symbol-description': 'error', 'template-curly-spacing': 'error', 'yield-star-spacing': [Array] }, settings: undefined }, { type: 'config', name: '.eslintrc.js » eslint-config-airbnb-base » /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/imports.js', filePath: '/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/imports.js', criteria: null, env: { es6: true }, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: undefined, parserOptions: { ecmaVersion: 6, sourceType: 'module' }, plugins: { import: [Object] }, processor: undefined, reportUnusedDisableDirectives: undefined, root: undefined, rules: { 'import/no-unresolved': [Array], 'import/named': 'error', 'import/default': 'off', 'import/namespace': 'off', 'import/export': 'error', 'import/no-named-as-default': 'error', 'import/no-named-as-default-member': 'error', 'import/no-deprecated': 'off', 'import/no-extraneous-dependencies': [Array], 'import/no-mutable-exports': 'error', 'import/no-commonjs': 'off', 'import/no-amd': 'error', 'import/no-nodejs-modules': 'off', 'import/first': 'error', 'import/imports-first': 'off', 'import/no-duplicates': 'error', 'import/no-namespace': 'off', 'import/extensions': [Array], 'import/order': [Array], 'import/newline-after-import': 'error', 'import/prefer-default-export': 'error', 'import/no-restricted-paths': 'off', 'import/max-dependencies': [Array], 'import/no-absolute-path': 'error', 'import/no-dynamic-require': 'error', 'import/no-internal-modules': [Array], 'import/unambiguous': 'off', 'import/no-webpack-loader-syntax': 'error', 'import/no-unassigned-import': 'off', 'import/no-named-default': 'error', 'import/no-anonymous-default-export': [Array], 'import/exports-last': 'off', 'import/group-exports': 'off', 'import/no-default-export': 'off', 'import/no-named-export': 'off', 'import/no-self-import': 'error', 'import/no-cycle': [Array], 'import/no-useless-path-segments': [Array], 'import/dynamic-import-chunkname': [Array], 'import/no-relative-parent-imports': 'off', 'import/no-unused-modules': [Array], 'import/no-import-module-exports': [Array], 'import/no-relative-packages': 'error' }, settings: { 'import/resolver': [Object], 'import/extensions': [Array], 'import/core-modules': [], 'import/ignore': [Array] } }, { type: 'config', name: '.eslintrc.js » eslint-config-airbnb-base » /Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/strict.js', filePath: '/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/rules/strict.js', criteria: null, env: undefined, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: undefined, parserOptions: undefined, plugins: undefined, processor: undefined, reportUnusedDisableDirectives: undefined, root: undefined, rules: { strict: [Array] }, settings: undefined }, { type: 'config', name: '.eslintrc.js » eslint-config-airbnb-base', filePath: '/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-airbnb-base/index.js', criteria: null, env: undefined, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: undefined, parserOptions: { ecmaVersion: 2018, sourceType: 'module' }, plugins: undefined, processor: undefined, reportUnusedDisableDirectives: undefined, root: undefined, rules: {}, settings: undefined }, { type: 'config', name: '.eslintrc.js » eslint-config-prettier', filePath: '/Users/nataliakeegan/Desktop/se_project_express/node_modules/eslint-config-prettier/index.js', criteria: null, env: undefined, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: undefined, parserOptions: undefined, plugins: undefined, processor: undefined, reportUnusedDisableDirectives: undefined, root: undefined, rules: { curly: 0, 'lines-around-comment': 0, 'max-len': 0, 'no-confusing-arrow': 0, 'no-mixed-operators': 0, 'no-tabs': 0, 'no-unexpected-multiline': 0, quotes: 0, '@typescript-eslint/lines-around-comment': 0, '@typescript-eslint/quotes': 0, 'babel/quotes': 0, 'vue/html-self-closing': 0, 'vue/max-len': 0, 'array-bracket-newline': 'off', 'array-bracket-spacing': 'off', 'array-element-newline': 'off', 'arrow-parens': 'off', 'arrow-spacing': 'off', 'block-spacing': 'off', 'brace-style': 'off', 'comma-dangle': 'off', 'comma-spacing': 'off', 'comma-style': 'off', 'computed-property-spacing': 'off', 'dot-location': 'off', 'eol-last': 'off', 'func-call-spacing': 'off', 'function-call-argument-newline': 'off', 'function-paren-newline': 'off', 'generator-star-spacing': 'off', 'implicit-arrow-linebreak': 'off', indent: 'off', 'jsx-quotes': 'off', 'key-spacing': 'off', 'keyword-spacing': 'off', 'linebreak-style': 'off', 'max-statements-per-line': 'off', 'multiline-ternary': 'off', 'newline-per-chained-call': 'off', 'new-parens': 'off', 'no-extra-parens': 'off', 'no-extra-semi': 'off', 'no-floating-decimal': 'off', 'no-mixed-spaces-and-tabs': 'off', 'no-multi-spaces': 'off', 'no-multiple-empty-lines': 'off', 'no-trailing-spaces': 'off', 'no-whitespace-before-property': 'off', 'nonblock-statement-body-position': 'off', 'object-curly-newline': 'off', 'object-curly-spacing': 'off', 'object-property-newline': 'off', 'one-var-declaration-per-line': 'off', 'operator-linebreak': 'off', 'padded-blocks': 'off', 'quote-props': 'off', 'rest-spread-spacing': 'off', semi: 'off', 'semi-spacing': 'off', 'semi-style': 'off', 'space-before-blocks': 'off', 'space-before-function-paren': 'off', 'space-in-parens': 'off', 'space-infix-ops': 'off', 'space-unary-ops': 'off', 'switch-colon-spacing': 'off', 'template-curly-spacing': 'off', 'template-tag-spacing': 'off', 'unicode-bom': 'off', 'wrap-iife': 'off', 'wrap-regex': 'off', 'yield-star-spacing': 'off', '@babel/object-curly-spacing': 'off', '@babel/semi': 'off', '@typescript-eslint/block-spacing': 'off', '@typescript-eslint/brace-style': 'off', '@typescript-eslint/comma-dangle': 'off', '@typescript-eslint/comma-spacing': 'off', '@typescript-eslint/func-call-spacing': 'off', '@typescript-eslint/indent': 'off', '@typescript-eslint/key-spacing': 'off', '@typescript-eslint/keyword-spacing': 'off', '@typescript-eslint/member-delimiter-style': 'off', '@typescript-eslint/no-extra-parens': 'off', '@typescript-eslint/no-extra-semi': 'off', '@typescript-eslint/object-curly-spacing': 'off', '@typescript-eslint/semi': 'off', '@typescript-eslint/space-before-blocks': 'off', '@typescript-eslint/space-before-function-paren': 'off', '@typescript-eslint/space-infix-ops': 'off', '@typescript-eslint/type-annotation-spacing': 'off', 'babel/object-curly-spacing': 'off', 'babel/semi': 'off', 'flowtype/boolean-style': 'off', 'flowtype/delimiter-dangle': 'off', 'flowtype/generic-spacing': 'off', 'flowtype/object-type-curly-spacing': 'off', 'flowtype/object-type-delimiter': 'off', 'flowtype/quotes': 'off', 'flowtype/semi': 'off', 'flowtype/space-after-type-colon': 'off', 'flowtype/space-before-generic-bracket': 'off', 'flowtype/space-before-type-colon': 'off', 'flowtype/union-intersection-spacing': 'off', 'react/jsx-child-element-spacing': 'off', 'react/jsx-closing-bracket-location': 'off', 'react/jsx-closing-tag-location': 'off', 'react/jsx-curly-newline': 'off', 'react/jsx-curly-spacing': 'off', 'react/jsx-equals-spacing': 'off', 'react/jsx-first-prop-new-line': 'off', 'react/jsx-indent': 'off', 'react/jsx-indent-props': 'off', 'react/jsx-max-props-per-line': 'off', 'react/jsx-newline': 'off', 'react/jsx-one-expression-per-line': 'off', 'react/jsx-props-no-multi-spaces': 'off', 'react/jsx-tag-spacing': 'off', 'react/jsx-wrap-multilines': 'off', 'standard/array-bracket-even-spacing': 'off', 'standard/computed-property-even-spacing': 'off', 'standard/object-curly-even-spacing': 'off', 'unicorn/empty-brace-spaces': 'off', 'unicorn/no-nested-ternary': 'off', 'unicorn/number-literal-case': 'off', 'vue/array-bracket-newline': 'off', 'vue/array-bracket-spacing': 'off', 'vue/array-element-newline': 'off', 'vue/arrow-spacing': 'off', 'vue/block-spacing': 'off', 'vue/block-tag-newline': 'off', 'vue/brace-style': 'off', 'vue/comma-dangle': 'off', 'vue/comma-spacing': 'off', 'vue/comma-style': 'off', 'vue/dot-location': 'off', 'vue/func-call-spacing': 'off', 'vue/html-closing-bracket-newline': 'off', 'vue/html-closing-bracket-spacing': 'off', 'vue/html-end-tags': 'off', 'vue/html-indent': 'off', 'vue/html-quotes': 'off', 'vue/key-spacing': 'off', 'vue/keyword-spacing': 'off', 'vue/max-attributes-per-line': 'off', 'vue/multiline-html-element-content-newline': 'off', 'vue/multiline-ternary': 'off', 'vue/mustache-interpolation-spacing': 'off', 'vue/no-extra-parens': 'off', 'vue/no-multi-spaces': 'off', 'vue/no-spaces-around-equal-signs-in-attribute': 'off', 'vue/object-curly-newline': 'off', 'vue/object-curly-spacing': 'off', 'vue/object-property-newline': 'off', 'vue/operator-linebreak': 'off', 'vue/quote-props': 'off', 'vue/script-indent': 'off', 'vue/singleline-html-element-content-newline': 'off', 'vue/space-in-parens': 'off', 'vue/space-infix-ops': 'off', 'vue/space-unary-ops': 'off', 'vue/template-curly-spacing': 'off', 'generator-star': 'off', 'indent-legacy': 'off', 'no-arrow-condition': 'off', 'no-comma-dangle': 'off', 'no-reserved-keys': 'off', 'no-space-before-semi': 'off', 'no-spaced-func': 'off', 'no-wrap-func': 'off', 'space-after-function-name': 'off', 'space-after-keywords': 'off', 'space-before-function-parentheses': 'off', 'space-before-keywords': 'off', 'space-in-brackets': 'off', 'space-return-throw-case': 'off', 'space-unary-word-ops': 'off', 'react/jsx-space-before-closing': 'off' }, settings: undefined }, { type: 'config', name: '.eslintrc.js', filePath: '/Users/nataliakeegan/Desktop/se_project_express/.eslintrc.js', criteria: null, env: { es2021: true, node: true }, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: undefined, parserOptions: { ecmaVersion: 'latest', sourceType: 'commonjs' }, plugins: undefined, processor: undefined, reportUnusedDisableDirectives: undefined, root: undefined, rules: { 'no-console': [Array], 'no-underscore-dangle': [Array] }, settings: undefined }, { type: 'config', name: '.eslintrc.js#overrides[0]', filePath: '/Users/nataliakeegan/Desktop/se_project_express/.eslintrc.js', criteria: { includes: [Array], excludes: null, basePath: '/Users/nataliakeegan/Desktop/se_project_express' }, env: { node: true }, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: undefined, parserOptions: { sourceType: 'script' }, plugins: undefined, processor: undefined, reportUnusedDisableDirectives: undefined, root: undefined, rules: undefined, settings: undefined } ] on /Users/nataliakeegan/Desktop/se_project_express
+2025-05-13T17:59:27.580Z eslintrc:ignore-pattern Create with: [ IgnorePattern { patterns: [ '/**/node_modules/*' ], basePath: '/Users/nataliakeegan/Desktop/se_project_express', loose: false } ]
+2025-05-13T17:59:27.580Z eslintrc:ignore-pattern   processed: { basePath: '/Users/nataliakeegan/Desktop/se_project_express', patterns: [ '/**/node_modules/*' ] }
+2025-05-13T17:59:27.580Z eslintrc:ignore-pattern Check {
+  filePath: '/Users/nataliakeegan/Desktop/se_project_express/app.js',
+  dot: false,
+  relativePath: 'app.js',
+  result: false
+}
+2025-05-13T17:59:27.580Z eslint:cli-engine Lint /Users/nataliakeegan/Desktop/se_project_express/app.js
+2025-05-13T17:59:27.580Z eslint:linter Linting code for /Users/nataliakeegan/Desktop/se_project_express/app.js (pass 1)
+2025-05-13T17:59:27.581Z eslint:linter Verify
+2025-05-13T17:59:27.581Z eslint:linter With ConfigArray: /Users/nataliakeegan/Desktop/se_project_express/app.js
+2025-05-13T17:59:27.581Z eslint:linter Parsing: /Users/nataliakeegan/Desktop/se_project_express/app.js
+2025-05-13T17:59:27.585Z eslint:linter Parsing successful: /Users/nataliakeegan/Desktop/se_project_express/app.js
+2025-05-13T17:59:27.585Z eslint:linter Scope analysis: /Users/nataliakeegan/Desktop/se_project_express/app.js
+2025-05-13T17:59:27.586Z eslint:linter Scope analysis successful: /Users/nataliakeegan/Desktop/se_project_express/app.js
+2025-05-13T17:59:27.606Z eslint:linter Generating fixed text for /Users/nataliakeegan/Desktop/se_project_express/app.js (pass 1)
+2025-05-13T17:59:27.606Z eslint:source-code-fixer Applying fixes
+2025-05-13T17:59:27.606Z eslint:source-code-fixer shouldFix parameter was false, not attempting fixes
+2025-05-13T17:59:27.606Z eslint:file-enumerator Complete iterating files: ["app.js"]
+2025-05-13T17:59:27.606Z eslint:cli-engine Linting complete in: 252ms
+
+/Users/nataliakeegan/Desktop/se_project_express/app.js
+  23:5  warning  Unexpected console statement  no-console
+  28:3  warning  Unexpected console statement  no-console
+
+✖ 2 problems (0 errors, 2 warnings)
+
