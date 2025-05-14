@@ -6,7 +6,6 @@ function handleError(err, res) {
   if (err.name === "ValidationError") {
     return res.status(BAD_REQUEST).send({
       message: "Invalid data",
-      error: err.message,
     });
   }
 
@@ -17,14 +16,11 @@ function handleError(err, res) {
   }
 
   if (err.statusCode === NOT_FOUND) {
-    return res
-      .status(NOT_FOUND)
-      .send({ message: err.message || "Resource not found" });
+    return res.status(NOT_FOUND).send({ message: "Resource not found" });
   }
 
   return res.status(SERVER_ERROR).send({
     message: "An error occured on the server",
-    error: err.message,
   });
 }
 

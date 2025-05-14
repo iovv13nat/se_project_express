@@ -6,7 +6,7 @@ const handleError = require("../utils/handleError");
 const getItems = (req, res) => {
   Item.find({})
     .populate("owner likes")
-    .then((items) => res.status(StatusCodes.OK).send(items))
+    .then((items) => res.send(items))
     .catch((err) => handleError(err, res));
 };
 
@@ -45,7 +45,7 @@ const likeItem = (req, res) => {
       throw error;
     })
     .populate("owner likes")
-    .then((item) => res.status(StatusCodes.OK).send(item))
+    .then((item) => res.send(item))
     .catch((err) => handleError(err, res));
 };
 
@@ -61,7 +61,7 @@ const dislikeItem = (req, res) => {
       throw error;
     })
     .populate("owner likes")
-    .then((item) => res.status(StatusCodes.OK).send(item))
+    .then((item) => res.send(item))
     .catch((err) => handleError(err, res));
 };
 module.exports = { getItems, createItem, deleteItem, likeItem, dislikeItem };

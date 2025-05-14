@@ -1,7 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const mainRouter = require("./routes/index");
-// const itemRouter = require("./routes/clothinItems");
 
 const { PORT = 3001 } = process.env;
 const app = express();
@@ -22,6 +21,4 @@ mongoose
   .then(() => {})
   .catch(console.error);
 
-app.listen(PORT, () => {
-  // console.log(`Listening on port ${PORT}`);
-});
+app.listen(PORT);

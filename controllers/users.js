@@ -5,7 +5,7 @@ const handleError = require("../utils/handleError");
 
 const getUsers = (req, res) => {
   User.find({})
-    .then((users) => res.status(StatusCodes.OK).send(users))
+    .then((users) => res.send(users))
     .catch((err) => handleError(err, res));
 };
 
@@ -18,7 +18,7 @@ const getUser = (req, res) => {
     })
 
     .then((user) => {
-      res.status(StatusCodes.OK).send(user);
+      res.send(user);
     })
     .catch((err) => handleError(err, res));
 };
